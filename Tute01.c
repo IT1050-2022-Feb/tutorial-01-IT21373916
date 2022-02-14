@@ -8,9 +8,9 @@ int main() {
   int sub1, sub2;
   float avg;
 
-  printf("Enter marks for subject 1 :");
+  std::cout<<("Enter marks for subject 1 :")<<endl;
   scanf("%d", &sub1);
-  printf("Enter marks for subject 2 :");
+  std::cout<<("Enter marks for subject 2 :")<<endl;
   scanf("%d", &sub2);
 
   avg=(sub1+sub2)/2;
